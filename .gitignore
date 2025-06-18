@@ -1,1 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
 venv/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (optional)
+data/raw/*
+!data/raw/.gitkeep
+
+# Logs and debug
+*.log
+
+# Environment and dependency files
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+
+# Python packaging artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+
+# Test results
+.pytest_cache/
+
+# MyPy and other linting tools
+.mypy_cache/
